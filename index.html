@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>行摘—摘录生活的点滴</title>
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="index_css/index_bg.css" rel="stylesheet" />
+    <link href="css/index_css/index.css" rel="stylesheet" />
+    <link href="css/index_css/index_bg.css" rel="stylesheet" />
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/_angular@1.6.7@angular/angular.min.js"></script>
+</head>
+
+<body ng-app="myApp">
+    <canvas id="canvas"></canvas>
+    <form class="layui-form" action="">
+        <div class="index_main_bg">
+            <div class="index_main">
+                <div class="logoin">
+                    <div class="logoin_tittle">
+                        <h2 class="form-signin-heading">行摘</h2>
+                        <h5>记录每天的行为，摘录过往的错误，方能不断的进步</h5>
+                    </div>
+                    <div class="logoin_btn" ng-controller="index">
+                        <form class="form-signin">
+                            <label for="inputEmail" class="sr-only">Email address</label>
+                            <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+                            <label for="inputPassword" class="sr-only">Password</label>
+                            <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                            <div class="checkbox">
+                                    <div class="verification"><span class="telVer"><a>手机验证码登陆</a></span><span class="forgetPass"><a>忘记密码？</a></span></div>
+                            </div>
+                            <span class="otherLogoin" ng-click="ohterSignin()">其他账号登陆</span>
+                            <div class="logoFor" ng-show="logoFor">
+                            <span class="qqLogoin"></span>
+                            <span class="wechatLogoin"></span>
+                            </div>
+                            <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </form>
+</body>
+</html>
+<script src="js/index/index_bg.js"></script>
+<script src="js/index/index.js"></script>

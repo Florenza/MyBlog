@@ -1,0 +1,6 @@
+F:\DEVELOP_WEB\Myblog\Myblog\bin\Myblog.dll.config
+F:\DEVELOP_WEB\Myblog\Myblog\bin\Myblog.dll
+F:\DEVELOP_WEB\Myblog\Myblog\bin\Myblog.pdb
+F:\DEVELOP_WEB\Myblog\Myblog\obj\Debug\Myblog.csprojResolveAssemblyReference.cache
+F:\DEVELOP_WEB\Myblog\Myblog\obj\Debug\Myblog.dll
+F:\DEVELOP_WEB\Myblog\Myblog\obj\Debug\Myblog.pdb

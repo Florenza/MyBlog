@@ -1,0 +1,123 @@
+﻿        a{
+            color:rgb(144, 201, 247);
+        }
+        body {
+            background: black;
+        }
+        .index_main_bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0,0,0,0.8);
+        }
+        .index_main {
+            width: 750px;
+            margin: 0 auto;
+            -webkit-box-flex: 1;
+            -ms-flex: 1;
+            flex: 1;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            border-radius: 2px;
+            min-height: calc(100vh - 42px);
+            padding: 54px 0;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        .logoin {
+            width: 432px;
+            height: 504px;
+            margin: 0 auto;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            /*background: rgba(255,255,255,1);*/
+        }
+
+        .logoin_tittle {
+            width: 432px;
+            height: 142px;
+            color: white;
+            text-align: center;
+        }
+
+        .logoin_tittle h2 {
+            font-size: 68px;
+            color: rgb(144, 201, 247);
+        }
+
+        .logoin_tittle h5 {
+             margin-top: 30px;
+             font-size: 13px;
+             color: rgb(144, 201, 247);
+         }
+        input.form-control {
+            border: 1px solid #738be2;
+            box-shadow: 0 0 0.2em #337ab7;
+            background: rgba(255,255,255,0);
+            color:white;
+            margin-top: 16px;
+        }
+        .logoin_btn {
+            width: 320px;
+            margin: 0 auto;
+        }
+        .btn-block {
+            display: block;
+            width: 100%;
+            margin-top: 14px;
+        }
+        span.forgetPass {
+            margin-left: 152px;
+        }
+        .verification{
+            margin-top:20px;
+        }
+        .logoFor {
+            width: 72px;
+            text-align: center;
+            margin: 0 auto;
+            height: 36px;
+            margin: 0 auto;
+        }
+        .logoFor .qqLogoin {
+            width: 36px;
+            height: 36px;
+            display: block;
+            float: left;
+            background-image: url(../../img/index/font-524.png);
+            background-size: 100%;
+        }
+        .logoFor .wechatLogoin {
+            width: 36px;
+            height: 36px;
+            display: block;
+            float:left;
+            background-image: url(../../img/index/weixin2.png);
+            background-size: 100%;
+         }
+        .otherLogoin {
+            display: block;
+            margin-top: 17px;
+            text-align: center;
+            width: 320px;
+            color:rgb(144, 201, 247);
+            cursor:pointer;
+        }
